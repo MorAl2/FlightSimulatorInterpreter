@@ -30,25 +30,25 @@ for Example if you wish to run The file fly.txt the following command should exe
 
 - The Following Commands Are Allowed:
 
--- openDataServer(port) - open server using sockets for the simulator to send data 
+- openDataServer(port) - open server using sockets for the simulator to send data 
 
--- connectControlClient(ip, port) - open client socket and connecting to the simulator for changing controls of the plane.
+- connectControlClient(ip, port) - open client socket and connecting to the simulator for changing controls of the plane.
 
--- var - creating a new var , 
+- var - creating a new var , 
 can be simluator depending/changing var - will be declered by (->) for changing and (<-) for depending or non for exapmple: 
 (var h0 = 3)
  (var breaks -> sim(** breaks path**) will change the simualtor breaks.)
  (var alt <- sim(** altitude path**) will be changed by the data supplied by the simulator.)
 
--- Print(data) - print the paramater supplied to it can be string or expession.
+- Print(data) - print the paramater supplied to it can be string or expession.
    
--- Sleep(time) - stops the main thread for the specified time, can be string or expession.
+- Sleep(time) - stops the main thread for the specified time, can be string or expession.
    
--- while(condition) { commands } - while loop.
+- while(condition) { commands } - while loop.
    
--- if(conddition) { command } - will execute the commands only if the condition is true.
+- if(conddition) { command } - will execute the commands only if the condition is true.
     
--- also the use of functions is Allowed but must be Declared Before the call to the function.
+- also the use of functions is Allowed but must be Declared Before the call to the function.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
