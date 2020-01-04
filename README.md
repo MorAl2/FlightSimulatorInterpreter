@@ -5,7 +5,7 @@ FSI is a Programming language Interpreter aimed for Controling and Flying Planes
 
 # Authors
 
-- Mor Elmeduey.
+- Mor Almado.
 - Noy Israeli.
 
 # Simulator
