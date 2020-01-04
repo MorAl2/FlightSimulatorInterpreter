@@ -20,9 +20,9 @@ FSI is a Programming language Interpreter aimed for Controling and Flying Planes
 
 ## Usage
 
-- The program takes as CommandLine Argument the txt file you wish to Interpret.
+- The program takes as CommandLine Argument the txt file you wish to Interpret, the txt file should be in the same folder you run the program from,
 for Example if you wish to run The file fly.txt the following command should execute:
-"./a.out fly.txt".
+"./a.out fly.txt". and the fly.txt should be in the same folder a.out is.
 
 - The program should show it waits for connection.
 
